@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle" id="theme-toggle">
+                    <svg class="theme-toggle-icon" viewBox="0 0 24 24" width="24" height="24">
+                        <path class="sun" d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41M12 6a6 6 0 100 12 6 6 0 000-12z" />
+                        <path class="moon" d="M12 3a6 6 0 01.769 11.958 7.5 7.5 0 107.5-7.5A6 6 0 0112 3z" />
+                    </svg>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section active">
+            <div class="container">
+                <h1 class="section-title">About Me</h1>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <p>Profile Image</p>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
+                        <p>I am a passionate web developer with expertise in creating responsive, user-friendly websites. I specialize in frontend development using HTML, CSS, and JavaScript. My goal is to build elegant, efficient solutions that provide exceptional user experiences.</p>
+                        <p>With a strong background in design principles and modern development practices, I strive to create websites that are not only visually appealing but also functionally robust.</p>
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Responsive Design</span>
+                                <span class="skill-tag">UI/UX</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h1 class="section-title">My Projects</h1>
+                <div class="projects-list" id="projects-list">
+                    <!-- Projects loaded automatically from assets/projects.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <div class="container">
+                <h1 class="section-title">Blog & Posts</h1>
+                <div class="blog-content">
+                    <!-- Blog Posts Container -->
+                    <div id="blog-posts" class="blog-posts">
+                        <!-- Posts loaded automatically from assets/linkedin-posts.json -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h1 class="section-title">Contact Me</h1>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always interested in new opportunities and collaborations. Feel free to reach out through any of the channels below:</p>
+                    </div>
+                    <div class="contact-buttons">
+                        <a href="mailto:your.email@example.com" class="contact-button email-button">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Me</span>
+                        </a>
+                        <a href="#" class="contact-button resume-button" id="download-resume">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="contact-button linkedin-button">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="contact-button github-button">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

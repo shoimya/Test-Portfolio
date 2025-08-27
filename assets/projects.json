@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Web-Scraper",
+    "description": "This app was built to aid my team at Datasoft in gathering real time market information from Dhaka and Chittagong stock exchange.",
+    "link": "https://github.com/shoimya/Web-Scraper"
+  },
+  {
+    "name": "SQL-Lite Emulator",
+    "description": "These are a series of projects built on top of each other to emulate SQL lite using python.",
+    "link": "https://github.com/shoimya/DBMS"
+  }
+]
