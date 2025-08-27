@@ -1,8 +1,22 @@
 [
     {
+        "name": "Certification!!",
+        "date": "Aug 2025",
+        "description": "Completion of Machine learning Specialization from Stanford Learning offered by Coursera.",
+        "link": "https://www.linkedin.com/posts/shoimya-chowdhury_im-happy-to-share-that-ive-obtained-a-new-activity-7333600624216879104-5r_i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRlmcUBNx0MJ0O85iCHC6GVZGxoWGsmkWg"
+    },
+    
+    {
         "name": "Rookie of the Year!!",
         "date": "May 2025",
         "description": "Reflecting on an incredible journey so far at Raymond James!",
         "link": "https://www.linkedin.com/feed/update/urn:li:activity:7322641896122527744/"
+    },
+
+    {
+        "name": "Certification!!",
+        "date": "July 2023",
+        "description": "Software Architecture: From Developer to Architect offered by Linked-In learning.",
+        "link": "https://www.linkedin.com/posts/shoimya-chowdhury_certificate-of-completion-activity-7079500332677902337-c9Fe?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRlmcUBNx0MJ0O85iCHC6GVZGxoWGsmkWg"
     }
 ]
