@@ -236,6 +236,14 @@ body.dark-mode .theme-toggle-icon .sun {
 .about-image {
     flex: 1;
 }
+/* my image*/
+.profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
 
 .about-text {
     flex: 2;
